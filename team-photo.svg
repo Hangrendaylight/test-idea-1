@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" fill="none" role="img" aria-label="AuraEd Technologies Engineering and Research Team Collaborating in Hawthorn Studio">
+  <defs>
+    <linearGradient id="studioWall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="appleBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0077ed"/>
+      <stop offset="100%" stop-color="#005bb5"/>
+    </linearGradient>
+    <linearGradient id="windowGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#e0f2fe" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0071e3" flood-opacity="0.12"/>
+    </filter>
+    <filter id="cardLift" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Studio Canvas Background -->
+  <rect width="800" height="460" rx="20" fill="url(#studioWall)"/>
+
+  <!-- Architectural Glass Panels & Light Beams -->
+  <rect x="60" y="40" width="680" height="200" rx="16" fill="url(#windowGlow)" stroke="#ffffff" stroke-width="2" filter="url(#softGlow)"/>
+  <line x1="280" y1="40" x2="280" y2="240" stroke="#bae6fd" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="520" y1="40" x2="520" y2="240" stroke="#bae6fd" stroke-width="1.5" stroke-dasharray="4 4"/>
+  
+  <!-- Central Studio Brand Plaque -->
+  <rect x="290" y="60" width="220" height="34" rx="17" fill="#ffffff" stroke="#bae6fd" stroke-width="1" filter="url(#cardLift)"/>
+  <circle cx="310" cy="77" r="5" fill="#0071e3"/>
+  <text x="405" y="81" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="11" font-weight="700" fill="#0071e3" text-anchor="middle" letter-spacing="1">AURAED RESEARCH LAB</text>
+
+  <!-- Main Collaborative Work Desk -->
+  <rect x="80" y="320" width="640" height="14" rx="6" fill="#1e293b"/>
+  <rect x="120" y="334" width="14" height="76" rx="3" fill="#64748b"/>
+  <rect x="666" y="334" width="14" height="76" rx="3" fill="#64748b"/>
+  <line x1="40" y1="410" x2="760" y2="410" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Member 1: Ethan Tran (Lead Architect) -->
+  <g transform="translate(130, 180)">
+    <!-- Avatar Head & Hair -->
+    <circle cx="45" cy="45" r="28" fill="#0f172a"/>
+    <path d="M12 140 C12 90, 78 90, 78 140" fill="#0071e3"/>
+    <!-- Laptop with Glowing Screen -->
+    <rect x="52" y="94" width="54" height="34" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" filter="url(#cardLift)"/>
+    <rect x="56" y="98" width="46" height="26" rx="2" fill="#0f172a"/>
+    <line x1="60" y1="105" x2="85" y2="105" stroke="#38bdf8" stroke-width="2"/>
+    <line x1="60" y1="112" x2="95" y2="112" stroke="#22c55e" stroke-width="2"/>
+    <polygon points="46,128 112,128 106,133 52,133" fill="#cbd5e1"/>
+    <!-- Role Tag -->
+    <rect x="15" y="148" width="60" height="18" rx="9" fill="#0071e3"/>
+    <text x="45" y="160" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">Ethan &bull; Arch</text>
+  </g>
+
+  <!-- Member 2: Sarah Nguyen (Accessibility UX Lead) -->
+  <g transform="translate(280, 165)">
+    <!-- Avatar Head & Hair -->
+    <circle cx="45" cy="45" r="28" fill="#334155"/>
+    <path d="M16 48 C14 20, 76 20, 74 48 C72 62, 18 62, 16 48" fill="#0f172a"/>
+    <path d="M12 155 C12 100, 78 100, 78 155" fill="#6366f1"/>
+    <!-- Tablet with Color Swatches -->
+    <rect x="25" y="110" width="38" height="26" rx="4" fill="#ffffff" stroke="#6366f1" stroke-width="1.5" filter="url(#cardLift)"/>
+    <circle cx="34" cy="120" r="3.5" fill="#0071e3"/>
+    <circle cx="44" cy="120" r="3.5" fill="#38bdf8"/>
+    <circle cx="54" cy="120" r="3.5" fill="#ec4899"/>
+    <!-- Role Tag -->
+    <rect x="15" y="163" width="60" height="18" rx="9" fill="#6366f1"/>
+    <text x="45" y="175" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">Sarah &bull; A11y</text>
+  </g>
+
+  <!-- Member 3: Marcus Patel (Core Systems & Forms) -->
+  <g transform="translate(430, 175)">
+    <!-- Avatar Head & Hair -->
+    <circle cx="45" cy="45" r="28" fill="#0f172a"/>
+    <path d="M12 145 C12 95, 78 95, 78 145" fill="#0284c7"/>
+    <!-- Dual Display Rig -->
+    <rect x="18" y="94" width="46" height="30" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" filter="url(#cardLift)"/>
+    <rect x="22" y="98" width="38" height="22" rx="2" fill="#0f172a"/>
+    <polyline points="26,114 34,106 42,110 52,102" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Role Tag -->
+    <rect x="15" y="153" width="60" height="18" rx="9" fill="#0284c7"/>
+    <text x="45" y="165" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">Marcus &bull; Sys</text>
+  </g>
+
+  <!-- Member 4: Chloe Zhao (UI Researcher & IA) -->
+  <g transform="translate(570, 180)">
+    <!-- Avatar Head & Hair -->
+    <circle cx="45" cy="45" r="28" fill="#334155"/>
+    <path d="M14 46 C12 22, 76 22, 74 46" fill="#0f172a"/>
+    <path d="M12 140 C12 90, 78 90, 78 140" fill="#0d9488"/>
+    <!-- Notebook & Smart Pen -->
+    <rect x="22" y="105" width="32" height="24" rx="3" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" filter="url(#cardLift)"/>
+    <line x1="28" y1="113" x2="48" y2="113" stroke="#0d9488" stroke-width="2"/>
+    <line x1="28" y1="119" x2="44" y2="119" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Role Tag -->
+    <rect x="15" y="148" width="60" height="18" rx="9" fill="#0d9488"/>
+    <text x="45" y="160" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">Chloe &bull; IA</text>
+  </g>
+
+  <!-- Studio Detail Pill at bottom right -->
+  <g transform="translate(620, 415)" filter="url(#cardLift)">
+    <rect x="0" y="0" width="160" height="28" rx="14" fill="#ffffff" stroke="#bae6fd" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#0071e3"/>
+    <text x="88" y="18" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#0071e3" text-anchor="middle">HAWTHORN STUDIO &bull; &lt; 300KB</text>
+  </g>
+</svg>

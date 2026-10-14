@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" role="img" aria-label="AuraEd Technologies Logo">
+  <defs>
+    <linearGradient id="logoBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0077ed"/>
+      <stop offset="100%" stop-color="#005bb5"/>
+    </linearGradient>
+    <filter id="logoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0071e3" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#logoBlueGrad)" filter="url(#logoShadow)"/>
+  <!-- Stylized Apple-modern A monogram with open pedagogical horizon -->
+  <path d="M24 9L13 35H19.5L21.8 29.2H26.2L28.5 35H35L24 9ZM22.8 24.5L24 21.2L25.2 24.5H22.8Z" fill="#ffffff"/>
+  <circle cx="24" cy="16.5" r="2.2" fill="#e0f2fe"/>
+  <path d="M12 39C16 37 32 37 36 39" stroke="#93c5fd" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
